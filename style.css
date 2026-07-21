@@ -1,0 +1,372 @@
+/* ================================
+   BioLab Digital
+   Landing Page E-Modul Praktikum Biologi
+   Author : Abyan Tarjuman
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f5fff8;
+
+    color:#333;
+
+    line-height:1.7;
+
+}
+
+/* ================= HERO ================= */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:60px 20px;
+
+    background:linear-gradient(135deg,#1b5e20,#43a047);
+
+    color:white;
+
+}
+
+.hero-content{
+
+    max-width:900px;
+
+}
+
+.logo{
+
+    width:140px;
+
+    margin-bottom:20px;
+
+}
+
+.kampus{
+
+    font-size:14px;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.prodi{
+
+    opacity:.9;
+
+    margin-bottom:20px;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+    margin-bottom:10px;
+
+}
+
+.hero h2{
+
+    font-size:2rem;
+
+    color:#ffe082;
+
+    margin-bottom:30px;
+
+}
+
+.cover{
+
+    width:300px;
+
+    max-width:90%;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+    margin-bottom:30px;
+
+}
+
+.judul{
+
+    max-width:750px;
+
+    margin:auto;
+
+    font-size:18px;
+
+    margin-bottom:40px;
+
+}
+
+/* ================= BUTTON ================= */
+
+.button-group{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn-start{
+
+    background:white;
+
+    color:#1b5e20;
+
+    text-decoration:none;
+
+    padding:15px 35px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-start:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+}
+
+.btn-secondary{
+
+    border:2px solid white;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 35px;
+
+    border-radius:50px;
+
+    transition:.3s;
+
+}
+
+.btn-secondary:hover{
+
+    background:white;
+
+    color:#1b5e20;
+
+}
+
+/* ================= SECTION ================= */
+
+.section{
+
+    padding:90px 12%;
+
+}
+
+.section h2{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+    color:#1b5e20;
+
+    font-size:2rem;
+
+}
+
+.section p{
+
+    text-align:center;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+/* ================= CARD ================= */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+
+    color:#2e7d32;
+
+}
+
+/* ================= TABLE ================= */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    margin-top:30px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+td{
+
+    padding:18px;
+
+    border-bottom:1px solid #e5e5e5;
+
+}
+
+/* ================= LIST ================= */
+
+ol{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+ol li{
+
+    margin-bottom:15px;
+
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+
+    background:#1b5e20;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px 20px;
+
+}
+
+footer p{
+
+    margin-bottom:10px;
+
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:2rem;
+
+}
+
+.hero h2{
+
+font-size:1.4rem;
+
+}
+
+.cover{
+
+width:220px;
+
+}
+
+.section{
+
+padding:60px 8%;
+
+}
+
+.button-group{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.btn-start,
+.btn-secondary{
+
+width:260px;
+
+}
+
+}
